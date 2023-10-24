@@ -62,7 +62,7 @@ body {
 }
 
 
-    #display{
+    #result{
         margin: 0 10px;
         height: 150px;
         width: auto;
@@ -73,8 +73,11 @@ body {
         font-size: 30px;
         margin-bottom: 20px;
         overflow-x: scroll;
+        background-color: transparent;
+        border: none;
+     
 }
-#display::-webkit-scrollbar{
+#result::-webkit-scrollbar{
     display: block;
     height: 3px;
 
@@ -132,7 +135,7 @@ button{
     background-color: #071115;
 
  }
- .calculator.dark #display{
+ .calculator.dark #result{
     color: #f8fafd;
 
  }
